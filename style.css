@@ -168,3 +168,11 @@ a {
     border-radius: 5px;
     border: solid #e5e7eb 2px;
 }
+
+/* footer */
+ .footer {
+    padding: 30px;
+    color: #e5e7eb;
+    background-color: #1F2937;
+    text-align: center;
+ }
