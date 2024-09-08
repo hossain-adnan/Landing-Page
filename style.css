@@ -59,11 +59,12 @@ a {
     background-color: #3882F6;
     padding: 10px 40px;
     border-radius: 8px;
+    border: none;
 }
 
 .hero img {
-    width: 300px;
-    height: 150px;
+    width: 400px;
+    height: 200px;
     object-fit: cover;
     background-color: #F9FAF8;
 }
@@ -74,7 +75,7 @@ a {
     flex-direction: column;
     align-items: center;
     background-color:#F9FAF8;
-    padding: 50px 200px;
+    padding: 100px 250px;
 }
 
 .info-header {
@@ -116,7 +117,7 @@ a {
     /* display: flex;
     flex-direction: column;
     align-items: center; */
-    padding: 50px 250px;
+    padding: 100px 300px;
 }
 
 .quote-text {
