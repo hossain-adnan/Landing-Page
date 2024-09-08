@@ -108,3 +108,29 @@ a {
     border: 4px solid #3882F6;
     margin-bottom: 10px;
 }
+
+/* quote */
+
+.quote {
+    background-color: #e5e7eb;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 50px 250px;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quoter {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    margin-right: 10px;
+    font-size: larger;
+    font-weight: 600;
+}
