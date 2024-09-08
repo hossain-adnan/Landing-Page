@@ -134,3 +134,37 @@ a {
     font-size: larger;
     font-weight: 600;
 }
+
+/* call to action */
+.action {
+    padding: 100px 150px;
+}
+
+.action-container {
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action .title {
+    color: #e5e7eb;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.action .text {
+    color: #e5e7eb;
+    font-weight: 300;
+}
+
+.action button {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 0px 30px;
+    border-radius: 5px;
+    border: solid #e5e7eb 2px;
+}
