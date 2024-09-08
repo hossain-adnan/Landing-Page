@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Roboto';
+    display: block;
 }
 
 .header {
@@ -69,5 +70,41 @@ a {
 
 /* info */
 .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#F9FAF8;
+    padding: 50px 200px;
+}
 
+.info-header {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: 150px;
+}
+
+.text-box img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 4px solid #3882F6;
+    margin-bottom: 10px;
 }
